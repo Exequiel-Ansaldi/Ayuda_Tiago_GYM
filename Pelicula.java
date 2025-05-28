@@ -1,62 +1,59 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
-package Constructor;
-
 public class Pelicula {
-    private String titulo;
-    private String genero;
-    private String director;
-    private int año;
+        private int codigo;
+        private String titulo;
+        private float precio;
+        private String tipo;
 
-    public Pelicula() {
-        titulo="Hombres de negro";
-        director="Barry Sonnenfeld";
-    } 
-    
-    public Pelicula(String titulo, String genero, String director, int año)  {
-        this.titulo=titulo;
-        this.genero=genero;
-        this.director=director;
-        this.año=año;
+        public Pelicula(int codigo, String titulo, float precio, String tipo) {
+            this.codigo = codigo;
+            this.titulo = titulo;
+            this.precio = precio;
+            this.tipo = tipo;
+        }
+
+
+    public int getCodigo() {
+        return this.codigo;
     }
-    
+
+    public void setCodigo(int codigo) {
+        this.codigo = codigo;
+    }
+
     public String getTitulo() {
-        return titulo;
-    }
-
-    public String getGenero() {
-        return genero;
-    }
-
-    public String getDirector() {
-        return director;
-    }
-
-    public int getAño() {
-        return año;
+        return this.titulo;
     }
 
     public void setTitulo(String titulo) {
         this.titulo = titulo;
     }
 
-    public void setGenero(String genero) {
-        this.genero = genero;
+    public float getPrecio() {
+        return this.precio;
     }
 
-    public void setDirector(String director) {
-        this.director = director;
+    public void setPrecio(float precio) {
+        this.precio = precio;
     }
 
-    public void setAño(int año) {
-        this.año = año;
+    public String getTipo() {
+        return this.tipo;
+    }
+
+    public void setTipo(String tipo) {
+        this.tipo = tipo;
     }
 
     @Override
     public String toString() {
-        return "Pelicula{" + "titulo=" + titulo + ", genero=" + genero + ", director=" + director + ", a\u00f1o=" + año + '}';
+        return "{" +
+            " codigo='" + getCodigo() + "'" +
+            ", titulo='" + getTitulo() + "'" +
+            ", precio='" + getPrecio() + "'" +
+            ", tipo='" + getTipo() + "'" +
+            "}";
     }
+
+        
+     
 }
