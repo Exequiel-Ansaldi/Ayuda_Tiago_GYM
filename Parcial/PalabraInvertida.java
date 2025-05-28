@@ -1,4 +1,4 @@
-package Constructor.EJERCITACION;
+package Parcial;
 import java.util.Scanner;
 public class PalabraInvertida {
 public static void main(String[] args) {

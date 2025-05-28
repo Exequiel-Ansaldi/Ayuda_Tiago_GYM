@@ -1,4 +1,4 @@
-package Constructor.EJERCITACION;
+package Parcial;
 
 public class Empleado{
     private int codigo;

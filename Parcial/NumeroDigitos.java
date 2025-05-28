@@ -1,4 +1,4 @@
-package Constructor.EJERCITACION;
+package Parcial;
 import java.util.*;
 public class NumeroDigitos{
     public static void main( String [] args){

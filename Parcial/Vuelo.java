@@ -1,4 +1,4 @@
-package Constructor.EJERCITACION;
+package Parcial;
 public class Vuelo {
     private String linea;
     private String codigo;

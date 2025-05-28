@@ -1,4 +1,4 @@
-package Ejercicio1;
+package Algoritmos;
 public class MatrizRecursiva {
     public static void main(String[] args) {
         int matriz[][] = {

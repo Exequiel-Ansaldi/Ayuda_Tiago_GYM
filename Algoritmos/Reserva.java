@@ -1,4 +1,4 @@
-package Ejercicio1;
+package Algoritmos;
 
 public class Reserva {
     private String fechadesde, fechahasta;

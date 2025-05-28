@@ -1,4 +1,4 @@
-package Constructor.EJERCITACION;
+package Parcial;
 
 public class EjecutableVuelo {
     public static void main(String[] args) {
